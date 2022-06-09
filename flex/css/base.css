@@ -1,0 +1,10 @@
+/* 居中 */
+.center{
+    width: 1152px;
+    margin: 0 auto;
+}
+
+/* 设置所有字体颜色为白色 */
+a{
+    color: white;
+}

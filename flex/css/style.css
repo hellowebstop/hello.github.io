@@ -1,0 +1,715 @@
+/* 顶部区域样式 */
+.tob-bar{
+    height: 32px;
+    background-color: black;
+    line-height: 32px;
+}
+
+.aimLoacl{
+  
+}
+
+.aimLoacl ul{
+    /* width: 470px; */
+    display: flex;
+}
+
+.aimLoacl ul li{
+    margin-right: 18px;
+    font-size: 14px;
+}
+
+.aimLoacl ul li a{
+    color: white;
+}
+
+.aimLoacl ul div.topbar-right{
+    display: flex;
+    margin-left: 400px;
+}
+
+
+.aimLoacl ul div.topbar-right span{
+    color: white;
+    margin-right: 15px;
+}
+
+
+
+
+/* 小三角 */
+.aimLoacl ul li.commer{
+    position: relative;
+}
+
+.triangel{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    top: 50%;
+    margin-top: -6px;
+}
+
+.triangel b{
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background-color: #fff;
+    transform: rotate(45deg);
+    top: 4px;
+    left: 4px;
+}
+
+.triangel i{
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background-color: black;
+    transform: rotate(45deg);
+    top: 2px;
+    left: 4px;
+}
+
+/* 小三角下边的样式 */
+.community{
+    position: absolute;
+    width: 110px;
+    /* height: 50px; */
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    display: none;
+}
+
+.community .community-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.community .community-list .listml{
+    text-align: center;
+}
+
+/**************************************
+/* 顶部区域中间样式 */
+.Navigation-bar{
+    height: 40px;
+    background-color: #20BD9A;
+    line-height: 40px;
+}
+
+
+.Navigation-bar .center .nav-content{
+    display: flex;
+} 
+
+.Navigation-bar .center .nav-content li{
+    /* margin-right: 20px; */
+    /* margin-left: 20px ; */
+    margin-right: 20px;
+}
+
+/*****************************
+/* 顶部搜索样式 */
+.top-search{
+    line-height: 32px;
+    padding: 36px 0;
+}
+
+.top-search h2{
+   font-size: 24px;
+   color: green;
+}
+
+.top-search .center .shop-search{
+    display: flex;
+}
+
+.top-search .center .shop-search .btn{
+    width: 35px;
+    height: 32px;
+    background-color: #20BD9A;
+    text-align: center;
+}
+
+.top-search .center .shop-search input{
+    outline: none;
+    border-radius: 0 4px 4px 0;
+    width: 361px;
+    height: 28px;
+    border: 1px solid green;
+    margin-left: 20px;
+}
+
+/***************************************/
+/* banner区域 */
+section.banner{
+    overflow: hidden;
+    position: relative;
+}
+
+.banner .carousel{
+    width: 600%;
+    display: flex;
+    /* position: relative; */
+    /* transform: ; */
+    
+}
+
+.banner .carousel .carousel-list{
+    width: 16.66%;
+}
+
+.banner .carousel .carousel-list img{
+    /* position: relative; */
+    vertical-align: middle;
+    width: 100%;
+}
+
+/* .banner .special{
+    position: absolute;
+} */
+.banner .special{
+    height: 100%;
+    margin-left: 185px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.banner .special .banner-ul-li{
+    z-index: 9;
+    height: 100%;
+    position: relative;
+}
+
+.banner .special .banner-ul-li>li::before{
+    position: absolute;
+    width: 22px;
+    height: 18px;
+    background-position: -29px -399px;
+    top: 50%;
+    left: 10px;
+    content: '';
+    background-image: url(../../案例/慕云游项目静态开发/images/icons.png);
+}
+
+
+.banner .special .hotGo{
+    width: 296px;
+    height: 16.66%;
+    background-color: rgba(0,0,0,.53);
+    vertical-align: middle;
+    border-bottom: 1px solid black;
+    /* margin-bottom: 1px; */
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.banner .special .hotGo dl{
+    /* padding: 20px 30px; */
+    color: white;
+}
+
+.banner .special .biankuang{
+    border-bottom: none;
+}
+
+/* 左按钮的样式 */
+.banner .special>.left-btn{
+    background: url(../../案例/慕云游项目静态开发/images/icons.png) no-repeat -21px -94px;
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 44px;
+    margin-top: -22px;
+    margin-left: -38px;
+}
+
+.banner .special .left-btn:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+/* 右边按钮的样式 */
+.banner .special>.right-btn{
+    background: url(../../案例/慕云游项目静态开发/images/icons.png) no-repeat -21px -29px;
+    width: 50px;
+    height: 44px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -22px;
+}
+
+.banner .special .right-btn:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.banner .linkage{
+    width: 296px;
+    background-color: rgba(0,0,0,.53);
+    height: 467px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    left: 296px;
+    border: 1px solid black;
+    display: none;
+    color: white;
+}
+
+/* 每个li设置高光 */
+ul.banner-ul-li li.HightLight{
+    /* background-color: #15AF7A; */
+    border: 1px solid red;
+}
+
+
+
+/* 如果添加类名导航条就显示出来了 */
+.banner .current{
+    display: block;
+}
+
+/* 小圆点样式 */
+ol.circle{
+    /* 自适应 */
+    /* width: 150px; */
+    /* height: 50px; */
+    /* background-color: orange; */
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -75px;
+    z-index: 99;
+}
+
+ol.circle .small-circle{
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+    transition: 'all .5s ease 0s';
+    /* position: absolute; */
+    cursor: pointer;
+}
+
+ol.circle .current{
+    width: 40px;
+}
+
+
+/* ////////////////////////////////////// */
+/* 广告区域 */
+section.hot-ad .center .hot{  
+    /* 没写死mar */
+    /* margin-top: 30px;      */
+    margin: 30px auto;
+    display: flex;
+    /* line-height: 48px; */
+}
+section.hot-ad .center .hot>li.hots{
+    margin-right: 32px;
+}
+
+section.hot-ad .center .hot>span{
+    padding-top: 20px;
+}
+
+/* 特价区域 */
+section.Special-offer{
+    background-color: #f7f7f7;
+}
+
+
+section.Special-offer .center .sw h1{
+    font-size: 36px;
+    margin-right: 15px;
+}
+
+section.Special-offer .center .sw>span{
+    /* height: ; */
+    padding-top: 25px;
+}
+
+
+section.Special-offer .center .sw{
+    /* margin-top: 70px; */
+    padding-top: 60px;
+    display: flex;
+}
+
+
+section.Special-offer .center .hot-picture{
+    /* margin-top: 20px;
+     */
+     /* margin: 20px 0; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section.Special-offer .center .hot-picture li{
+    margin-right: 20px;
+    margin-bottom: 30px;  
+    overflow: hidden;
+    /* overflow-hidden将放大的图片给隐藏掉 */
+    /* margin-bottm移动别人,tops是自身 */
+}
+
+/* 当鼠标移到上去的属性 */
+section.Special-offer .center .hot-picture li:hover{
+    /* transform: scale(0.5); */
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%);
+}
+
+section.Special-offer .center .hot-picture li>img:hover{
+    transform: scale(1.2);
+}
+
+section.Special-offer .center .hot-picture li>img{
+    transition: transform .4s ease 0s;
+    /* 从0-1.2倍, 1.2-0倍加上过渡效果 */
+}
+
+
+
+section.Special-offer .center .hot-picture li>div.imgBox{
+    font-size: 13px;
+    /* height: 75px;   让高度自适应 */
+    width: 240px;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 17px 10px;
+}
+
+/* 机酒自由行 */
+section.Special-offer .center .sw ul{
+    display: flex;
+    margin-top: 24px;
+    margin-left: 110px;
+}
+
+section.Special-offer .center .sw ul li{
+    margin-right: 8px;
+}
+
+section.Special-offer .center .hot-picture{
+    margin-top: 30px;
+}
+
+
+section.Special-offer .center .sw ul>li.current{
+    border-bottom: 4px solid #20BD9A;
+}
+
+
+section.jjFree{
+    background-color: white;
+}
+
+
+section.Special-offer .center .more-grid{
+    position: relative;
+    width: 264px;
+    height: 270px;
+    background-image: linear-gradient(180deg, #34E3BC 0%, #15AF7A 98%);
+}
+section.Special-offer .center .more-grid p{
+    text-align: center;
+    color: white;
+    margin-top: 55px;
+}
+
+section.Special-offer .center .more-grid .jj{
+    margin-top: 0px;
+}
+
+
+section.Special-offer .center .more-grid div{
+    text-align: center;
+    margin-top: 30px;
+}
+
+section.Special-offer .center .more-grid span.iconfont{
+    font-size: 40px;
+    color: white;
+}
+
+section.Special-offer .center li.more-grid>ul.tips{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+section.Special-offer .center li.more-grid>ul.tips>li.tip{
+    display: inline-block;
+}
+
+
+/* 定义动画 */
+@keyframes ud{
+    from{
+        /* 这里的偏移是相对于自身进行偏移 */
+        transform: translateY(-10px);
+    }
+    to{
+        transform: translateY(10px);
+    }
+}
+
+/* 调用动画 */
+section.Special-offer .center .hot-picture .more-grid div:hover{
+    /* 动画的相关属性 */
+    animation: ud .4s ease 0s infinite alternate;  
+}
+
+
+
+/* /////////////////////////////////当地玩乐 */
+section.Special-offer .center .sw .country{
+    margin-left: 170px;
+}
+
+/* ///////////////////////////////////////////// */
+/* 当地玩乐 */
+section.Special-offer .center .hot-picture .pannda li{
+    display: flex;
+}
+
+section.Special-offer .center .hot-picture .pannda li.red{
+    width: 364px;
+    background-image: linear-gradient(180deg, #FF6374 1%, #FF7368 98%);
+}
+
+
+/* 特色当地体验////////////////////////////////////////////// */
+section.localPlay .center h1{
+    margin-top: 30px;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+section.localPlay .center .hot-picture{
+    margin-top: 20px;
+    display: flex;
+    margin-bottom: 30px;
+    width: 200%;
+    position: relative;
+}
+
+section.localPlay .qq{
+    overflow: hidden;
+}
+
+section.localPlay .center .hot-picture li{
+    margin-right: 10px;
+    width: 273px;
+    height: 230px;
+    overflow: hidden;
+}
+
+section.localPlay .center .hot-picture li:hover{
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%);
+}
+
+section.localPlay .center .hot-picture li img:hover{
+    transform: scale(1.1);
+}
+
+section.localPlay .center .hot-picture li img{
+    transition: transform .4s ease 0s;
+}
+
+section.localPlay .center .hot-picture li div{
+    overflow: hidden;
+}
+
+/* 跟团半自助游................................... */
+ul.hot-picture>li.small-circle{
+    width: 200px;
+    height: 300px;
+    background-color: red;
+    position: relative;
+}
+
+ul.hot-picture>li.fg{
+    position: relative;
+    height: 270px;
+}
+
+section.Special-offer .center ul li>div.mask{
+    height: 100%;
+    width: 560px;
+    /* background-color: orange; */
+    /* 鼠标移动上去颜色为 */
+    /* background-color: rgba(0,0,0,.7); */
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .3s ease 0s ;
+}
+
+/* 当鼠标移动上去颜色为 */
+ul.hot-picture>li.fg:hover .mask{
+    background-color: rgba(0, 0, 0, .7);
+}
+
+ul.hot-picture>li.fg>div.self-tour{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 106px;
+    height: 106px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: -108px;
+    /* 过渡效果添加时间 */
+    transition: all .5s ease 0s;
+}
+
+/* 鼠标移动上去小圆点滚到中间来 */
+ul.hot-picture>li.fg:hover .self-tour{
+    /* top: 50%; */
+    top: 70%;
+    /* transform: translateY(-50%); */
+}
+
+ul.hot-picture>li.fg>div.self-tour p{
+    margin-top: 27px;
+    /* 居中 */
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+ul.hot-picture>li.fg>div.word{
+    position: absolute;
+    bottom: -20px;
+    color: white;
+    text-align: center;
+}
+
+/* 当鼠标移到文字的位置变化了 */
+
+ul.hot-picture>li.fg:hover .word{
+    bottom: 40px;
+}
+
+ul.hot-picture>li.fg>div.word{
+    transition: all .5s ease 0s;
+}
+
+/* ////////////////////////////////////////设置底部的样式 */
+footer>div.love-service .center>div.love-nav>ul{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer>div.love-service{
+    height: 150px;
+}
+
+footer>div.love-service .center>div.love-nav>ul>li{
+    /* margin-right: 10px; */
+    color: #1C1F21;
+    font-size: 16px;
+}
+
+div.ttff{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+}
+
+div.ttff>dl{
+    position: relative;
+    width: 289px;
+    /* margin-left: 20px; */
+}
+
+div.ttff>dl::before{
+    background-image: url(../../案例/慕云游项目静态开发/images/icons.png);
+    width: 60px;
+    height: 60px;
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: -60px;
+    /* background-position: -150px -178px; */
+}
+
+div.ttff>dl.ff::before{
+       background-position: -150px -178px;
+}
+
+div.ttff>dl.ccsx::before{
+    background-position: -150px -104px;
+}
+
+div.ttff>dl.axph::before{
+    background-position:-150px -31px ;
+}
+
+/* 底部暮云游商城 */
+
+div.ajj{
+    display: flex;
+}
+
+div.black{
+    background-color: black;
+    height: 300px;
+    color: white;
+}
+
+div.black .center h2{
+    font-size: 46px;
+    margin-top: 30px;
+}
+
+div.black .center span.air-ticket{
+    margin-top: 43px;
+    width: 532px;
+    margin-left: 20px;
+}
+
+div.black .center div.about-our ul{
+    margin-top: 30px;
+    display: flex
+}
+
+div.black .center div.about-our ul li{
+    margin-right: 20px;
+}
+
+div.black .center div.about-our ul span{
+    margin-right: 20px;
+}
+
+div.ba{
+    margin-top: 20px;
+}
+
+/* 返回按钮 */
+div.back-top{
+    width: 100px;
+    height: 50px;
+    background-color: orange;
+    position: fixed;
+    right: 0;
+    top: 100%;
+    margin-top: -50px;
+    display: none;
+}
+
+
